@@ -9,4 +9,8 @@ Available drivers include:
 - `i2c`: provides basic functions to read and write registers and buffers over I²C using HAL.
 - `spi`: convenience functions for SPI transfers.
 
+- `adc`: simple API for analog-to-digital conversion; initialize and read a channel using HAL_ADC.
+- `dac`: functions to initialize a DAC and write 12-bit values to a channel using HAL_DAC.
+- `pwm`: helper for configuring a timer for PWM output and setting the duty cycle via HAL_TIM_PWM.
+
 Each driver is implemented as a pair of `.h` and `.c` files. You can include only the drivers you need in your application. See the examples in the `examples/` directory for usage.
