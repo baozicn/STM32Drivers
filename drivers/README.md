@@ -1,6 +1,6 @@
-# Drivers
+#Drivers
 
-This directory contains reusable peripheral drivers for STM32 microcontrollers. Each module provides an easy-to-use API for initializing and interacting with a hardware peripheral while abstracting away the underlying register and HAL calls. d
+This directory contains reusable peripheral drivers for STM32 microcontrollers. Each module provides an easy-to-use API for initializing and interacting with a hardware peripheral while abstracting away the underlying register and HAL call. 
 Available drivers include:
 
 - `led`: simple wrapper to control on-board LEDs (initialize, turn on/off, toggle).
